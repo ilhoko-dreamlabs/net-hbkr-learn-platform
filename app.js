@@ -29,8 +29,8 @@ window.addEventListener("scroll", function () { header?.classList.toggle("is-scr
 document.querySelectorAll("[data-year]").forEach(function (node) { node.textContent = String(new Date().getFullYear()); });
 
 const reveals = document.querySelectorAll("[data-reveal]");
-if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(function (entries) {
+if ("Intersection사용 행동 관찰r" in window) {
+  const observer = new Intersection사용 행동 관찰r(function (entries) {
     entries.forEach(function (entry) {
       if (!entry.isIntersecting) return;
       entry.target.classList.add("is-visible");
@@ -55,7 +55,7 @@ document.querySelectorAll("[data-tabs]").forEach(function (group) {
 document.querySelectorAll("form[data-prototype-form]").forEach(function (form) {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
-    showToast("Prototype interaction입니다. 입력 정보는 저장되거나 전송되지 않습니다.");
+    showToast("화면 동작 예시입니다. 입력 정보는 저장되거나 전송되지 않습니다.");
   });
 });
 
