@@ -1,0 +1,13 @@
+{
+  "name": "net-hbkr-learn-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Foundation, Applied, Builder 경로를 실제 문제와 Evidence로 연결하는 HBKR 학습 프로토타입.",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/dev-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

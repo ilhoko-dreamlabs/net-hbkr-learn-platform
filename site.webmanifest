@@ -1,0 +1,8 @@
+{
+  "name": "HBKR LEARN",
+  "short_name": "HBKR LEARN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#edf3ff",
+  "theme_color": "#1559ff"
+}
